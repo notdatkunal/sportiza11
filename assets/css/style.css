@@ -2327,7 +2327,7 @@
     }
   }
   .hero-front-image img {
-    max-width: none;
+    /* max-width: none; */
   }
   @media only screen and (min-width: 1200px) and (max-width: 1499px) {
     .hero-front-image img {
