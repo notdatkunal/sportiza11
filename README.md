@@ -1,2 +1,2 @@
 # sportiza11
-sportiza11 landing page
+sportiza11 landing page vanilla js
