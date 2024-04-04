@@ -5601,6 +5601,17 @@
       margin-left: 0px;
       margin-top: 10px;
     }
+    .df-btn{
+      margin-left: 0px;
+      margin-top: 10px;
+
+    }
+    .df-btn {
+      font-size: 8px;
+      line-height: 5px;
+      height: 20px;
+      padding: 9px 10px;
+  }
   }
   
   /*-- Forum Post CSS --*/
