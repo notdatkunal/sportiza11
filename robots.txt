@@ -1,0 +1,24 @@
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Qwantify
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: *
+Allow: /
+Allow: *p=1$
+Disallow: *p=*
+Disallow: /u/
+Disallow: /fe/
+Disallow: *tags=*
+Disallow: */related/
+Sitemap: https://www.sportiza11.com/sitemap.xml
