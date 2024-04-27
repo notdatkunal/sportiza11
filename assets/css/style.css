@@ -133,7 +133,7 @@
     cursor: pointer;
   }
   
-  a, button, img, input, span {
+  a, button, img,video, input, span {
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -3578,13 +3578,13 @@
     }
   }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .install-image img {
+    .install-image video {
       max-width: 100%;
       margin-bottom: 30px;
     }
   }
   @media only screen and (max-width: 767px) {
-    .install-image img {
+    .install-image video {
       max-width: 100%;
       margin-bottom: 30px;
     }
@@ -6660,6 +6660,9 @@
       display: block;
     }
     .banner-group .single-banner a img {
+      width: 100%;
+    }
+    .banner-group .single-banner a video {
       width: 100%;
     }
   }

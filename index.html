@@ -268,10 +268,12 @@
         <div class="container">
             <div class="row align-items-center">
                 
-                <div class="col-lg-5 offset-lg-1">
+                <div class="col-lg-5  offset-lg-1">
                     <!--Install Image Start-->
-                    <div class="install-image">
-                        <img src="assets/images/Post 3_JPEG.jpg" alt="">
+                    <div class="install-image " >
+                        <!-- <video src="assets/videos/How To Play.mp4" autoplay height="500px" width="400px"></video> -->
+                        <iframe id="myVideo" width="400" height="400" src="https://www.youtube.com/embed/siJ31eE7EB0?si=-ExNqUGW7tIQTaua" title="Sportiza 11 video" frameborder="0" allow=" autoplay; " referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+                        <!-- <img src="assets/images/Post 3_JPEG.jpg" alt=""> -->
                     </div>
                     <!--Install Image End-->
                 </div>
@@ -561,6 +563,19 @@ With your playing XI join a league or contest organized by SPORTIZA11 to compete
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="assets/js/plugins.js"></script>
 <script src="assets/js/main.js"></script>
+<script>
+     var player;
+  window.onload = function() {
+    player = new YT.Player('myVideo');
+    player.addEventListener('onReady', onPlayerReady);
+    console.log(player);
+  };
+
+  function onPlayerReady(event) {
+    event.target.playVideo();
+  }
+    
+  </script>
 
 </body>
 
