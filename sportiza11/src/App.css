@@ -460,3 +460,107 @@ input:checked ~ .accordion-content {
   font-weight: 100;
   font-style: normal;
 }
+
+/* Styles for Introdcution component */
+
+.introduction-page{
+  position: relative;
+  background-image: url('./assets/head_bg.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 916px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.introduction-page-table{
+  width: 80%;
+  height: 916px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.introduction-page{
+  position: relative;
+  background-image: url('./assets/head_bg.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
+
+.introduction-text{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 100px 20px 20px;
+  font-family: "Rowdies", sans-serif;
+}
+
+
+.introduction-container-text{
+  text-align: left;
+  color: white;
+  font-family: "Rowdies", sans-serif;
+}
+
+.introduction-container-text h3 {
+  width: 256px;
+  height: 51px;
+}
+
+.introduction-container-text p {
+  width: 659px;
+  height: 225px;
+}
+
+.introduction-container-image{
+  width: 507px;
+  height: 290px;
+}
+
+.select-section {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.select-section h3{
+  color: white;
+  font-family: "Rowdies", sans-serif;
+
+}
+
+.select-table {
+  border-collapse: collapse;
+  width: 1350px;
+  border: none;
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Ensure the border-radius is respected */
+}
+
+.select-table th, .select-table td {
+  border: 2px solid white;
+  padding: 10px;
+  background-color: rgb(112, 26, 26);
+  color: white;
+}
+
+.select-table th:first-child, .select-table td:first-child {
+  border-left: none;
+}
+
+.select-table th:last-child, .select-table td:last-child {
+  border-right: none;
+}
+
+.select-table th, .select-table td:not(:last-child) {
+  border-left: none; /* Remove right borders for all columns except the last one */
+}

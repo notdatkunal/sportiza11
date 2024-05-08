@@ -2,6 +2,7 @@ import './App.css';
 import DownloadApp from './component/DownloadApp';
 import Home from './component/Home';
 import HowToPlay from './component/HowToPlay';
+import Introduction from './component/Introduction';
 import Navbar from './component/Nav';
 import SportizaFAQ from './component/SportizaFAQ';
 import TrustedUser from './component/TrustedUser';
@@ -16,6 +17,7 @@ function App() {
       <TrustedUser />
       <DownloadApp />
       <SportizaFAQ />
+      <Introduction />
     </div>
   );
 }
