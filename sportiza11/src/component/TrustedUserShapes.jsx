@@ -1,10 +1,10 @@
 import React from 'react';
-import Logo1 from '../assets/logo1.png';
-import Logo2 from '../assets/logo2.png';
+import Logo1 from '../assets/logo2.png';
+import Logo2 from '../assets/WinPrize.png';
 import Logo3 from '../assets/logo3.png';
 import Arrow from '../assets/right-arrow.png';
 
-const RoundShapes = () => {
+const TrustedUserShapes = () => {
   return (
     <div className="round-shapes-container">
       <div className="round-shape">
@@ -12,7 +12,7 @@ const RoundShapes = () => {
           <circle cx="49.5" cy="49.5" r="49" fill="#D8BDBD" />
           <image href={Logo1} x="25.5" y="25.5" width="48" height="48" />
         </svg>
-        <p><b>Sign Up Or Log In Your <br />Free Sportiza 11 Account.</b></p>
+        <p><b>5+ Million Trusted Users.</b></p>
       </div>
       <div className="arrow">
         <img src={Arrow} alt="Arrow" />
@@ -22,7 +22,7 @@ const RoundShapes = () => {
           <circle cx="49.5" cy="49.5" r="49" fill="#D8BDBD" />
           <image href={Logo2} x="25.5" y="25.5" width="48" height="48" />
         </svg>
-        <p><b>Create Your Dream Team <br />From Each Two teams.</b></p>
+        <p><b>50+ Daily Contest In Sportiza 11.</b></p>
       </div>
       <div className="arrow">
         <img src={Arrow} alt="Arrow" />
@@ -32,11 +32,11 @@ const RoundShapes = () => {
           <circle cx="49.5" cy="49.5" r="49" fill="#D8BDBD" />
           <image href={Logo3} x="25.5" y="25.5" width="48" height="48" />
         </svg>
-        <p><b>Win Your Prize & Withdraw <br />Whenever You Can.</b></p>
+        <p><b>1 Crores Daily Winning In Sportiza 11.</b></p>
       </div>
     </div>
   );
 };
 
-export default RoundShapes;
+export default TrustedUserShapes;
 
