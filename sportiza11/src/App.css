@@ -237,10 +237,70 @@ nav {
   height: 997px;
 }
 
-.why-man-container{
+.why-logo-container h2{
+  color: white;
+  font-weight: bold;
+  font-family: 'Secular', sans-serif;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.why-man-container {
   position: relative;
   left: 1050px;
   width: 853px;
   height: 853px;
-  top: 232px;
+  top: 126px;
+}
+
+.table-container {
+  position: absolute;
+  top: 350px;
+  left: 300px;
+  width: 900px;
+  height: 900px;
+  padding: 10px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed; 
+  border-collapse: collapse;
+}
+
+td {
+  padding: 20px; 
+  border: none; 
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+}
+
+.round-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  opacity: 80%;
+  margin-right: 10px; /* Adjust spacing between cells */
+}
+
+.round-cell .logo {
+  width: 24px;
+  height: 27px;
+}
+
+.text {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Secular', sans-serif;
+  margin-right: 10px;
 }
