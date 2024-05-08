@@ -1,4 +1,5 @@
 import './App.css';
+import DownloadApp from './component/DownloadApp';
 import Home from './component/Home';
 import HowToPlay from './component/HowToPlay';
 import Navbar from './component/Nav';
@@ -12,6 +13,7 @@ function App() {
       <HowToPlay />
       <WhyToChoose />
       <TrustedUser />
+      <DownloadApp />
     </div>
   );
 }

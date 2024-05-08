@@ -304,3 +304,77 @@ td {
   font-family: 'Secular', sans-serif;
   margin-right: 10px;
 }
+
+/* Styles for Download container */
+
+.download-container{
+  position: relative;
+  background-image: url('./assets/head_bg.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 774px;
+}
+
+.download-container-logo{
+  position: absolute;
+  width: 639px;
+  height: 720px;
+  top: 75px;
+  left: 270px;
+}
+
+.download-container-text {
+  position: absolute;
+  top: 110px;
+  left: 52%;
+  /* transform: translateX(-50%); */
+  text-align: center;
+}
+
+.download-container-shape {
+  background-color: transparent;
+  border: 5px solid white; 
+  border-radius: 20px;
+  padding: 20px;
+  width: fit-content;
+  color: white;
+  text-align: center;
+}
+
+.download-container-head {
+  color: white;
+  padding: 20px;
+}
+
+.download-cell {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.download-round-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  opacity: 80%;
+  margin-right: 20px; 
+  border: 3px solid #DBFF00; 
+}
+
+.download-round-cell .logo {
+  width: 24px;
+  height: 27px;
+}
+
+.download-text {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Secular', sans-serif;
+  margin-right: 10px;
+}
