@@ -378,3 +378,85 @@ td {
   font-family: 'Secular', sans-serif;
   margin-right: 10px;
 }
+
+
+
+/* Styles for FAQ Section */
+
+
+
+.accordion-wrapper {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.accordion {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.accordion-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background: #D9D9D9;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.accordion-label:hover {
+  background: #917c7c;
+}
+
+.accordion-content {
+  max-height: 0;
+  padding: 0 16px;
+  color: #32093A;
+  background: white;
+  transition: max-height 0.3s, padding 0.3s;
+  border-radius: 0 0 8px 8px;
+}
+
+.accordion-content p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+input:checked + .accordion-label {
+  background: #917c7c;
+}
+
+input:checked + .accordion-label::after {
+  content: "\25BC";
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+input:checked ~ .accordion-content {
+  max-height: 100vh;
+  padding: 16px;
+}
+
+.faq-text {
+  text-align: center;
+  padding: 20px;
+  font-family: "Rowdies", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
