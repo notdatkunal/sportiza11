@@ -714,3 +714,27 @@ input:checked ~ .accordion-content {
   font-family: "Rowdies", sans-serif;
   padding-top: 120px;
 }
+
+.download-app {
+  background-color: #DBFF00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-family: "Rowdies", sans-serif;
+}
+
+.android-download{
+  background-color: black;
+  border-radius: 10px;
+  color: #7fee01;
+  padding: 30px;
+  margin-right: 30px;
+}
+
+.apple-download{
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  padding: 30px;
+}
