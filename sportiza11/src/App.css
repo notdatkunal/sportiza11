@@ -615,3 +615,82 @@ input:checked ~ .accordion-content {
   font-family: "Rowdies", sans-serif;
   padding: 150px;
 }
+
+/* styles.css */
+
+.game-list {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #968c8c;
+  width: 1349px;
+  height: 45px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+.game-list li {
+  float: left;
+}
+
+.game-list li a {
+  display: block;
+  color: #fafafa;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding: 10px 153px;
+  font-weight: bold;
+}
+
+.game-list li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.game-list li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+.point-system h2{
+  text-align: center;
+  color: #160849;
+  font-family: "Rowdies", sans-serif;
+  padding: 30px;
+}
+
+
+.accordion-content div {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #DB8282;
+  border-radius: 10px;
+}
+
+.points-cell {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+.point-system{
+  position: relative;
+  background-image: url('./assets/StadiumNew.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.fantasy-point-text{
+  text-align: center;
+  color: #0e052e;
+  font-family: "Rowdies", sans-serif;
+  padding: 30px;
+}
