@@ -694,3 +694,23 @@ input:checked ~ .accordion-content {
   font-family: "Rowdies", sans-serif;
   padding: 30px;
 }
+
+.winnings-logo{
+  padding: 50px;
+}
+
+.wrapper-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.winnings-logo, .winnings-container {
+  margin: 0 10px;
+}
+
+.winnings-container{
+  text-align: center;
+  color: #0e052e;
+  font-family: "Rowdies", sans-serif;
+  padding-top: 120px;
+}

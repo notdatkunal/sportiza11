@@ -1,5 +1,6 @@
 import './App.css';
 import DownloadApp from './component/DownloadApp';
+import EarnedWinnings from './component/EarnedWinnings';
 import Home from './component/Home';
 import HowToPlay from './component/HowToPlay';
 import Introduction from './component/Introduction';
@@ -22,6 +23,7 @@ function App() {
       <Introduction />
       <TableComp />
       <PointsSystem />
+      <EarnedWinnings />
     </div>
   );
 }
