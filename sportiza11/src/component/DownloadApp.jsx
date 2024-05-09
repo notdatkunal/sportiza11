@@ -12,7 +12,7 @@ const DownloadApp = () => {
       </div>
       <div className='download-container-text'>
         <div className='download-container-shape'>
-          <h2><b>Download The Sportiza 11 App Now</b></h2>
+          <h2><b>Download The Sportiza11 App Now</b></h2>
           <p><b>Create Team, Join Contest & Win Exciting Cash Prizes.</b></p>
         </div>
         <h4 className='download-container-head'><b>Get The App And Win Crores</b></h4>
@@ -35,7 +35,7 @@ const DownloadApp = () => {
             <div className="download-round-cell">
                 <img src={Logo3} alt="Logo" className="logo" />
              </div>
-            <span className="download-text">Play More Our Sprotiza 11 Contest & Win Sportiza 11 Coins</span>
+            <span className="download-text">Play More Our Sprotiza 11 Contest & Win Sportiza11 Coins</span>
         </div>
 
       </div>

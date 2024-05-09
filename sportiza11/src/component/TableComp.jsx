@@ -18,7 +18,7 @@ const TableComp = () => {
                   </td>
                   <td className='select-table-text'>
                     <h2>1.</h2>
-                    <h4>Log in or Sign Up Your Sportiza 11 Acoount </h4>
+                    <h4>Log in or Sign Up Your Sportiza11 Acoount </h4>
                     <p>Log In Or Sign Up Your Account By Your Verified Mail Id or Phone number</p>
                   </td>
                 </tr>

@@ -27,7 +27,7 @@ const PointsSystem = () => {
 
   return (
     <div className='point-system'>
-      <h2>FANTASY POINTS SYSTEM IN SPORTIZA 11</h2>
+      <h2>FANTASY POINTS SYSTEM IN Sportiza11</h2>
       <div>
         <ul className='game-list'>
           <li>

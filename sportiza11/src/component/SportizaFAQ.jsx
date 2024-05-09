@@ -4,7 +4,7 @@ const SportizaFAQ = () => {
   return (
     <div>
         <div className="faq-text">
-            <h2>Sportiza 11 FAQ's</h2>
+            <h2>Sportiza11 FAQ's</h2>
             <h4>Clear Your Doubts Related To The Fantasy</h4>
         </div>
     <div className="accordion-wrapper">
@@ -18,7 +18,7 @@ const SportizaFAQ = () => {
 
       <div className="accordion">
         <input type="radio" name="radio-a" id="check2" />
-        <label className="accordion-label" htmlFor="check2">How To Play Fantasy Cricket In Sportiza 11 ?</label>
+        <label className="accordion-label" htmlFor="check2">How To Play Fantasy Cricket In Sportiza11 ?</label>
         <div className="accordion-content">
           <p>I hope you are enjoying the video, don't forget to give your feedback in the comment section.</p>
         </div>
@@ -26,7 +26,7 @@ const SportizaFAQ = () => {
 
       <div className="accordion">
         <input type="radio" name="radio-a" id="check3" />
-        <label className="accordion-label" htmlFor="check3">Is Sportiza 11 Legal In India ?</label>
+        <label className="accordion-label" htmlFor="check3">Is Sportiza11 Legal In India ?</label>
         <div className="accordion-content">
           <p>If you liked it, then don't forget to subscribe to the channel for the latest videos.</p>
         </div>
@@ -34,7 +34,7 @@ const SportizaFAQ = () => {
 
       <div className="accordion">
         <input type="radio" name="radio-a" id="check4" />
-        <label className="accordion-label" htmlFor="check4">How To Download Sportiza 11 ?</label>
+        <label className="accordion-label" htmlFor="check4">How To Download Sportiza11 ?</label>
         <div className="accordion-content">
           <p>If you liked it, then don't forget to subscribe to the channel for the latest videos.</p>
         </div>
@@ -42,7 +42,7 @@ const SportizaFAQ = () => {
 
       <div className="accordion">
         <input type="radio" name="radio-a" id="check5" />
-        <label className="accordion-label" htmlFor="check5">How Can I Create Team In Sportiza 11 ?</label>
+        <label className="accordion-label" htmlFor="check5">How Can I Create Team In Sportiza11 ?</label>
         <div className="accordion-content">
           <p>If you liked it, then don't forget to subscribe to the channel for the latest videos.</p>
         </div>
@@ -50,7 +50,7 @@ const SportizaFAQ = () => {
 
       <div className="accordion">
         <input type="radio" name="radio-a" id="check6" />
-        <label className="accordion-label" htmlFor="check6">Can I Bet In Sportiza 11 ?</label>
+        <label className="accordion-label" htmlFor="check6">Can I Bet In Sportiza11 ?</label>
         <div className="accordion-content">
           <p>If you liked it, then don't forget to subscribe to the channel for the latest videos.</p>
         </div>
@@ -58,7 +58,7 @@ const SportizaFAQ = () => {
 
       <div className="accordion">
         <input type="radio" name="radio-a" id="check7" />
-        <label className="accordion-label" htmlFor="check7">What Is the Contest Price In Sportiza 11 ?</label>
+        <label className="accordion-label" htmlFor="check7">What Is the Contest Price In Sportiza11 ?</label>
         <div className="accordion-content">
           <p>If you liked it, then don't forget to subscribe to the channel for the latest videos.</p>
         </div>

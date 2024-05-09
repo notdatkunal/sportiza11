@@ -1,10 +1,10 @@
 import React from 'react'
-import Poster from '../assets/poster.png';
+import Poster from '../assets/poster2.png';
 
 const Introduction = () => {
   return (
     <div className='introduction-page'>
-        <h1 className='introduction-text'><u>How to Play In Sportiza 11?</u></h1>
+        <h1 className='introduction-text'><u>How to Play In Sportiza11?</u></h1>
         <table className='introduction-page-table'>
             <tbody>
                 <tr>
@@ -23,7 +23,9 @@ const Introduction = () => {
 
                     <td>
                     <div className='introduction-container-image'>
+                        <a href="https://youtu.be/JPKgkyLUYNc?si=wF2qO0RJ5P2rMWYG">
                        <img src={Poster} alt="Arrow" />
+                        </a>
                     </div> 
                     </td>
                 </tr>

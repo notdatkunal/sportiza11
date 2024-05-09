@@ -15,7 +15,7 @@ const WhyToChoose = () => {
   return (
     <div className="why-logo-container">
       <div className = "why-head-container">
-          <h2>Why To Choose Sportiza 11 ?</h2>
+          <h2>Why To Choose Sportiza11 ?</h2>
       </div>
       <div className="why-man-container">
         <img src={Man} alt="" />
@@ -29,7 +29,7 @@ const WhyToChoose = () => {
                   <div className="round-cell">
                     <img src={Logo15} alt="Logo" className="logo" />
                   </div>
-                  <span className="text">Easy To Play in Sportiza 11</span>
+                  <span className="text">Easy To Play in Sportiza11</span>
                 </div>
               </td>
               <td>
@@ -48,7 +48,7 @@ const WhyToChoose = () => {
                   <div className="round-cell">
                     <img src={Logo2} alt="Logo" className="logo" />
                   </div>
-                  <span className="text">Easy To Create Your Dream <br /> Team In Sportiza 11</span>
+                  <span className="text">Easy To Create Your Dream <br /> Team In Sportiza11</span>
                 </div>
               </td>
               <td>
@@ -56,7 +56,7 @@ const WhyToChoose = () => {
                   <div className="round-cell">
                     <img src={Logo3} alt="Logo" className="logo" />
                   </div>
-                  <span className="text">Specific Batting Contest In <br />Sportiza 11</span>
+                  <span className="text">Specific Batting Contest In <br />Sportiza11</span>
                 </div>
               </td>
             </tr>
@@ -74,7 +74,7 @@ const WhyToChoose = () => {
                   <div className="round-cell">
                     <img src={Logo5} alt="Logo" className="logo" />
                   </div>
-                  <span className="text">Specific Balling Contest In <br />Sportiza 11</span>
+                  <span className="text">Specific Balling Contest In <br />Sportiza11</span>
                 </div>
               </td>
             </tr>
@@ -102,7 +102,7 @@ const WhyToChoose = () => {
                   <div className="round-cell">
                     <img src={Logo8} alt="Logo" className="logo" />
                   </div>
-                  <span className="text">Chances To Win Prize From Every <br /> Game On Sportiza 11</span>
+                  <span className="text">Chances To Win Prize From Every <br /> Game On Sportiza11</span>
                 </div>
               </td>
               <td>

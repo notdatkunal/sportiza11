@@ -2,6 +2,7 @@ import './App.css';
 import DownloadApp from './component/DownloadApp';
 import DownloadButton from './component/DownloadButton';
 import EarnedWinnings from './component/EarnedWinnings';
+import Footer from './component/Footer';
 import Home from './component/Home';
 import HowToPlay from './component/HowToPlay';
 import Introduction from './component/Introduction';
@@ -26,6 +27,7 @@ function App() {
       <PointsSystem />
       <EarnedWinnings />
       <DownloadButton />
+      <Footer />
     </div>
   );
 }

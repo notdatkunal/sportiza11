@@ -738,3 +738,51 @@ input:checked ~ .accordion-content {
   color: white;
   padding: 30px;
 }
+
+/* Styles for footer section */
+
+.footer-container{
+  position: relative;
+  background-image: url('./assets/Footer.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: fit-content;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Rowdies", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 2px;
+}
+
+
+.footer-container-table img{
+  height: 144px;
+  width: 187;
+  padding: 8px;
+}
+
+.footer-container-icons{
+  height: 65px;
+  width: 450px;
+}
+
+
+.footer-solid-container{
+  background-color: #080223;
+  padding: 20px;
+}
+
+.footer-last-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Rowdies", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}

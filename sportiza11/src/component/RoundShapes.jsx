@@ -12,7 +12,7 @@ const RoundShapes = () => {
           <circle cx="49.5" cy="49.5" r="49" fill="#D8BDBD" />
           <image href={Logo1} x="25.5" y="25.5" width="48" height="48" />
         </svg>
-        <p><b>Sign Up Or Log In Your <br />Free Sportiza 11 Account.</b></p>
+        <p><b>Sign Up Or Log In Your <br />Free Sportiza11 Account.</b></p>
       </div>
       <div className="arrow">
         <img src={Arrow} alt="Arrow" />

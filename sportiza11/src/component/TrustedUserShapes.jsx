@@ -22,7 +22,7 @@ const TrustedUserShapes = () => {
           <circle cx="49.5" cy="49.5" r="49" fill="#D8BDBD" />
           <image href={Logo2} x="25.5" y="25.5" width="48" height="48" />
         </svg>
-        <p><b>50+ Daily Contest In Sportiza 11.</b></p>
+        <p><b>50+ Daily Contest In Sportiza11.</b></p>
       </div>
       <div className="arrow">
         <img src={Arrow} alt="Arrow" />
@@ -32,7 +32,7 @@ const TrustedUserShapes = () => {
           <circle cx="49.5" cy="49.5" r="49" fill="#D8BDBD" />
           <image href={Logo3} x="25.5" y="25.5" width="48" height="48" />
         </svg>
-        <p><b>1 Crores Daily Winning In Sportiza 11.</b></p>
+        <p><b>1 Crores Daily Winning In Sportiza11.</b></p>
       </div>
     </div>
   );
