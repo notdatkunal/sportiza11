@@ -34,7 +34,7 @@ const Introduction = () => {
             <h3>Select Your Sport</h3>
             <table class="select-table">
             <tr>
-                <th>Cricket</th>
+                <th><u>Cricket</u></th>
                 <th>Foorball</th>
                 <th>BasketBall</th>
                 <th>Hockey</th>

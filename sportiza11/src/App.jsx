@@ -5,6 +5,7 @@ import HowToPlay from './component/HowToPlay';
 import Introduction from './component/Introduction';
 import Navbar from './component/Nav';
 import SportizaFAQ from './component/SportizaFAQ';
+import TableComp from './component/TableComp';
 import TrustedUser from './component/TrustedUser';
 import WhyToChoose from './component/WhyToChoose';
 
@@ -18,6 +19,7 @@ function App() {
       <DownloadApp />
       <SportizaFAQ />
       <Introduction />
+      <TableComp />
     </div>
   );
 }

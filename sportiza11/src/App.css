@@ -564,3 +564,54 @@ input:checked ~ .accordion-content {
 .select-table th, .select-table td:not(:last-child) {
   border-left: none; /* Remove right borders for all columns except the last one */
 }
+
+/* Styles for table component */
+
+.select-table-conatiner-inf {
+  position: relative;
+  background-image: url('./assets/lower.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.select-table-inf {
+  position: relative;
+  background-color: transparent;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  padding: 40px;
+}
+
+.select-table-inf td {
+  border: 3px solid rgb(250, 250, 250);
+}
+
+.select-table-row {
+  width: 1250px;
+  height: 571px;
+}
+
+.select-table-img {
+  width: 492px;
+  height: 492px;
+}
+
+.select-table-text {
+  width: 492px;
+  height: 492px;
+  text-align: left;
+  color: white;
+  font-family: "Rowdies", sans-serif;
+  padding: 150px;
+}
+
+.select-table-text-left {
+  width: 492px;
+  height: 492px;
+  text-align: right;
+  color: white;
+  font-family: "Rowdies", sans-serif;
+  padding: 150px;
+}
