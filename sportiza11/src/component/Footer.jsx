@@ -3,6 +3,7 @@ import Sportiza from '../assets/sportiza11.png';
 import SIcons from '../assets/SIcons.png';
 import GaminPrism from '../assets/gamingpirsm.png';
 import FP from '../assets/FP.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -21,27 +22,45 @@ const Footer = () => {
                         <table>
                             <tbody>
                                 <tr>
-                                    <td>About Us</td>
-                                    <td>Disclaimer</td>
+                                    <td>
+                                        About Us
+                                    </td>
+                                    <td>
+                                        <Link to={"/disclaimer"}>Disclaimer</Link>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>privacy policy</td>
-                                    <td>Shipping Delivery Policy</td>
+                                    <td>
+                                    <Link to={"/shippling-delivery"}>Shipping Delivery Policy</Link>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>Legality</td>
-                                    <td>Service / Contest</td>
+                                    <td>
+                                        <Link to={"/leagality"}>Legality</Link>
+                                    </td>
+                                    <td>
+                                        <Link to={"/service-contest"}>Service / Contest</Link>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>Responsible Play</td>
-                                    <td>Fantasy Points System</td>
+                                    <td>
+                                    <Link to={"/responsible-play"}>Responsible Play</Link>
+                                    </td>
+                                    <td>
+                                    <Link to={"/fantasy-points"}>Fantasy Points System</Link>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Terms & Conditions</td>
-                                    <td>Contact Us</td>
+                                    <td>
+                                    <Link to={"/contact-us"}>Contact Us</Link>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>Refund Policy</td>
+                                    <td>
+                                    <Link to={"/refund-policy"}>Refund Policy</Link>
+                                    </td>
                                     <td>Community Guidelines</td>
                                 </tr>
                             </tbody>
