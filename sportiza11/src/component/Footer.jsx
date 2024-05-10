@@ -4,6 +4,11 @@ import SIcons from '../assets/SIcons.png';
 import GaminPrism from '../assets/gamingpirsm.png';
 import FP from '../assets/FP.png';
 import { Link } from 'react-router-dom';
+import fb from '../assets/social/fb.png';
+import insta from '../assets/social/instagram.png';
+import threads from '../assets/social/threads.png';
+import twitter from '../assets/social/twitter.png';
+import yt from '../assets/social/youutube.png';
 
 const Footer = () => {
   return (
@@ -16,7 +21,28 @@ const Footer = () => {
                         <p>Contact : +91 82768 74632 (24*7)</p>
                         <p>Email : support@gamingprismprivatelimited.com</p>
                         <p>Follow Us On</p>
-                        <img src={SIcons} alt=""  className='footer-container-icons'/>
+                        <div className='footer-container-icons'>
+
+                            <a href="https://www.facebook.com/people/Sportiza-11/61555794179074/">
+                            <i class="fa-brands fa-facebook fa-3x"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/sportiza111/">
+                            <i class="fa-brands fa-instagram fa-3x"></i>
+                            </a>
+
+                            <a href="https://www.threads.net/@sportiza111">
+                            <i class="fa-brands fa-threads fa-3x"></i>
+                            </a>
+                            
+                            <a href="https://twitter.com/Sportiza11">
+                            <i class="fa-brands fa-twitter fa-3x"></i>
+                            </a>
+
+                            <a href="https://youtu.be/JPKgkyLUYNc?si=wF2qO0RJ5P2rMWYG">
+                            <i class="fa-brands fa-youtube fa-3x"></i>
+                            </a>
+                        </div>
                     </td>
                     <td>
                         <table>

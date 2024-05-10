@@ -765,11 +765,12 @@ input:checked ~ .accordion-content {
   padding: 8px;
 }
 
-.footer-container-icons{
-  height: 65px;
-  width: 450px;
+.footer-container-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
 }
-
 
 .footer-solid-container{
   background-color: #080223;
