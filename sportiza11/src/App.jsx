@@ -21,6 +21,9 @@ import TrustedUser from './component/TrustedUser';
 import WhyToChoose from './component/WhyToChoose';
 import ContestUsComp from './component/ContectUsComp';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import PrivacyPolicy from './component/PrivacyPolicy';
+import TermCondition from './component/TermCondition';
+import Community from './component/Community';
 function App() {
   return (
     <div className="App">
@@ -37,6 +40,9 @@ function App() {
       <Route  path="/service-contest"  element={<ContestPage/>} ></Route>
       <Route  path="/fantasy-points"  element={<FantasyPointsComp/>} ></Route>
       <Route  path="/contact-us"  element={<ContestUsComp/>} ></Route>
+      <Route  path="/privacy-policy"  element={<PrivacyPolicy/>} ></Route>
+      <Route  path="/terms-condition"  element={<TermCondition />} ></Route>
+      <Route  path="/community"  element={<Community />} ></Route>
       </Routes>
       <Footer />
      </Router>

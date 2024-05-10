@@ -45,7 +45,7 @@ const Navbar = () => {
         <a href="">How To Play</a>
         <a href="">FAQ's</a>
         <a href="">Blog</a>
-        <a href="your_download_url_here" className="primary-button">Download Sportiza11</a>
+        <a href="" className="primary-button">Download Sportiza11</a>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

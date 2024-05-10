@@ -56,7 +56,9 @@ const Footer = () => {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>privacy policy</td>
+                                    <td>
+                                        <Link to={"/privacy-policy"}>Privacy policy</Link>
+                                    </td>
                                     <td>
                                     <Link to={"/shippling-delivery"}>Shipping Delivery Policy</Link>
                                     </td>
@@ -78,7 +80,9 @@ const Footer = () => {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Terms & Conditions</td>
+                                    <td>
+                                    <Link to={"/terms-condition"}>Terms & Conditions</Link>
+                                    </td>
                                     <td>
                                     <Link to={"/contact-us"}>Contact Us</Link>
                                     </td>
@@ -87,7 +91,9 @@ const Footer = () => {
                                     <td>
                                     <Link to={"/refund-policy"}>Refund Policy</Link>
                                     </td>
-                                    <td>Community Guidelines</td>
+                                    <td>
+                                    <Link to={"/community"}>Community Guidelines</Link>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
