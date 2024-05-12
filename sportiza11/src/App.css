@@ -145,7 +145,7 @@ nav {
   left: 450px;
   width: 853px;
   height: 853px;
-  top: 700px;
+  top: 600px;
   color: white;
   font-family: sans-serif;
 }
@@ -157,7 +157,7 @@ nav {
 .sponsor-images {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -320px;
+  margin-left: -17px;
 }
 
 .sponsor {

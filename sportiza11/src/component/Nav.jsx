@@ -13,6 +13,7 @@ import Image1 from '../assets/Head_player.png';
 import Ileague from '../assets/League.png';
 import IPL from '../assets/IPL.png';
 import ISL from '../assets/ISL.png';
+import GP from '../assets/gamingpirsm.png';
 
 import Philipps from '../assets/philips.png';
 import Chola from '../assets/Chola.png';
@@ -81,14 +82,14 @@ const Navbar = () => {
     <h4>Ab Hoga Asli Khel</h4>
     </div>
 
-    <div className="official-partner-container">
+    {/* <div className="official-partner-container">
       <h4>Official Partner</h4>
       <div class="partner-images">
         <img src={Ileague} alt="Partner 1" />
         <img src={IPL} alt="Partner 2" />
         <img src={ISL} alt="Partner 3" />
     </div>
-    </div>
+    </div> */}
 
         {/* Sponsers Section */}
 
@@ -96,20 +97,8 @@ const Navbar = () => {
     <h4>Official Sponsors</h4>
     <div class="sponsor-images">
         <div class="sponsor">
-            <img src={Philipps} alt="Partner 1" />
-            <p>Philipps</p>
-        </div>
-        <div class="sponsor">
-            <img src={Chola} alt="Partner 2" />
-            <p>Cholamandalam Finance</p>
-        </div>
-        <div class="sponsor">
-            <img src={Coke} alt="Partner 3" />
-            <p>Coca Cola</p>
-        </div>
-        <div class="sponsor">
-            <img src={Honda} alt="Partner 4" />
-            <p>Honda</p>
+            <img src={GP} alt="Partner 1" />
+            <p>Gaming Prism</p>
         </div>
     </div>
 </div>
